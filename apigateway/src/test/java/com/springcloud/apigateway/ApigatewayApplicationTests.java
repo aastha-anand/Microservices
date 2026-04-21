@@ -1,10 +1,10 @@
-package com.SpringCloud.StudentService;
+package com.springcloud.apigateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StudentServiceApplicationTests {
+class ApigatewayApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/AddressService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurekaServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StudentService/StudentService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/StudentService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apigateway/src/main/java" charset="UTF-8" />
   </component>
 </project>

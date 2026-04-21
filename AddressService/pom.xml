@@ -15,7 +15,7 @@
 	</parent>
 
 	<groupId>com.springcloud</groupId>
-	<artifactId>AddressService</artifactId>
+	<artifactId>addressservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Address Service</name>
 	<description>Spring Boot Address Service</description>

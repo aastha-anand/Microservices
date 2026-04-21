@@ -2,20 +2,29 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AddressService" />
-        <module name="eureka-server" />
+        <module name="apigateway" />
         <module name="StudentService" />
+        <module name="eureka-server" />
+        <module name="addressservice" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AddressService" target="21" />
+      <module name="StudentService (1)" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AddressService" options="-parameters" />
       <module name="StudentService" options="-parameters" />
+      <module name="StudentService (1)" options="-parameters" />
+      <module name="addressservice" options="-parameters" />
+      <module name="apigateway" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
     </option>
   </component>
